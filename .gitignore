@@ -43,8 +43,6 @@
 
 [Dd]ebug/
 [Rr]elease/
-MFC_Dynamic_[Dd]ebug/
-MFC_Dynamic_[Rr]elease/
 Win32/
 x64/
 build/
