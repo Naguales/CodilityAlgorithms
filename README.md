@@ -1,0 +1,2 @@
+# CodilityAlgorithms
+C++ Codility Solutions
