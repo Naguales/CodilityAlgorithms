@@ -21,73 +21,73 @@
     <ClCompile Include="CodilityAlgorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson1%28Iterations%29-BinaryGap.cpp">
+    <ClCompile Include="Lesson01%28Iterations%29-BinaryGap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson2%28Arrays%29-CyclicRotation.cpp">
+    <ClCompile Include="Lesson02%28Arrays%29-CyclicRotation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson2%28Arrays%29-OddOccurrencesInArray.cpp">
+    <ClCompile Include="Lesson02%28Arrays%29-OddOccurrencesInArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson3%28TimeComplexity%29-FrogJmp.cpp">
+    <ClCompile Include="Lesson03%28TimeComplexity%29-FrogJmp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson3%28TimeComplexity%29-PermMissingElem.cpp">
+    <ClCompile Include="Lesson03%28TimeComplexity%29-PermMissingElem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson3%28TimeComplexity%29-TapeEquilibrium.cpp">
+    <ClCompile Include="Lesson03%28TimeComplexity%29-TapeEquilibrium.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gtest\gtest-all.cc">
       <Filter>gtest</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson4%28CountingElements%29-FrogRiverOne.cpp">
+    <ClCompile Include="Lesson04%28CountingElements%29-FrogRiverOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson4%28CountingElements%29-PermCheck.cpp">
+    <ClCompile Include="Lesson04%28CountingElements%29-PermCheck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson4%28CountingElements%29-MaxCounters.cpp">
+    <ClCompile Include="Lesson04%28CountingElements%29-MaxCounters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson4%28CountingElements%29-MissingInteger.cpp">
+    <ClCompile Include="Lesson04%28CountingElements%29-MissingInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5(PrefixSums)-PassingCars.cpp">
+    <ClCompile Include="Lesson05%28PrefixSums%29-PassingCars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5(PrefixSums)-CountDiv.cpp">
+    <ClCompile Include="Lesson05%28PrefixSums%29-CountDiv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson6(Sorting)-Distinct.cpp">
+    <ClCompile Include="Lesson06%28Sorting%29-Distinct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson6(Sorting)-MaxProductOfThree.cpp">
+    <ClCompile Include="Lesson06%28Sorting%29-MaxProductOfThree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson6(Sorting)-Triangle.cpp">
+    <ClCompile Include="Lesson06%28Sorting%29-Triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson7(StacksAndQueues)-Brackets.cpp">
+    <ClCompile Include="Lesson07%28StacksAndQueues%29-Brackets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson7(StacksAndQueues)-Nesting.cpp">
+    <ClCompile Include="Lesson07%28StacksAndQueues%29-Nesting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson8(Leader)-Dominator.cpp">
+    <ClCompile Include="Lesson08%28Leader%29-Dominator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson8(Leader)-EquiLeader.cpp">
+    <ClCompile Include="Lesson08%28Leader%29-EquiLeader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson9(MaximumSliceProblem)-MaxProfit.cpp">
+    <ClCompile Include="Lesson09%28MaximumSliceProblem%29-MaxProfit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson9(MaximumSliceProblem)-MaxSliceSum.cpp">
+    <ClCompile Include="Lesson09%28MaximumSliceProblem%29-MaxSliceSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson9(MaximumSliceProblem)-MaxDoubleSliceSum.cpp">
+    <ClCompile Include="Lesson09%28MaximumSliceProblem%29-MaxDoubleSliceSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Lesson10(PrimeAndCompositeNumbers)-CountFactors.cpp">
