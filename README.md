@@ -1,2 +1,2 @@
-# codility-algorithms
+# Codility Algorithms
 C++ Codility Solutions
