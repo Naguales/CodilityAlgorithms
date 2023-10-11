@@ -138,6 +138,7 @@
     <ClCompile Include="CodilityAlgorithms.cpp" />
     <ClCompile Include="gtest\gtest-all.cc" />
     <ClCompile Include="Lesson01%28Iterations%29-BinaryGap.cpp" />
+    <ClCompile Include="Lesson07(StacksAndQueues)-Fish.cpp" />
     <ClCompile Include="Lesson10(PrimeAndCompositeNumbers)-CountFactors.cpp" />
     <ClCompile Include="Lesson10(PrimeAndCompositeNumbers)-Flags.cpp" />
     <ClCompile Include="Lesson10(PrimeAndCompositeNumbers)-MinPerimeterRectangle.cpp" />

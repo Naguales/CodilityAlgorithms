@@ -935,6 +935,83 @@ TEST(BracketsTest, LargeNestedBrackets)
     EXPECT_EQ(brackets(S), 1);
 }
 
+// Lesson 7 (Stacks and queues) - Fish
+// -------------------------------------------------
+
+// Test case for the provided example.
+TEST(FishTest, ProvidedExample)
+{
+    std::vector<int> A = { 4, 3, 2, 1, 5 };
+    std::vector<int> B = { 0, 1, 0, 0, 0 };
+    EXPECT_EQ(fish(A, B), 2); // Expected result is 2 (fish 0 and fish 4 stay alive).
+}
+
+// Test case for all fish moving in the same direction (upstream).
+TEST(FishTest, AllUpstream)
+{
+    std::vector<int> A = { 4, 3, 2, 1, 5 };
+    std::vector<int> B = { 0, 0, 0, 0, 0 };
+    EXPECT_EQ(fish(A, B), 5); // Expected result is 5 (all fish stay alive).
+}
+
+// Test case for all fish moving in the same direction (downstream).
+TEST(FishTest, AllDownstream)
+{
+    std::vector<int> A = { 4, 3, 2, 1, 5 };
+    std::vector<int> B = { 1, 1, 1, 1, 1 };
+    EXPECT_EQ(fish(A, B), 5); // Expected result is 5 (all fish stay alive).
+}
+
+// Test case when all fish will stay alive.
+TEST(FishTest, AllStayAlive)
+{
+    std::vector<int> A = { 1, 2, 3, 4, 5 };
+    std::vector<int> B = { 0, 1, 1, 1, 1 };
+    EXPECT_EQ(fish(A, B), 5);
+}
+
+// Test case for large numbers.
+TEST(FishTest, LargeNumbers)
+{
+    std::vector<int> A = { 1000000000, 999999999, 500000000, 1, 1000000000 };
+    std::vector<int> B = { 1, 1, 0, 0, 1 };
+    EXPECT_EQ(fish(A, B), 3); // Expected result is 3.
+}
+
+// Test case for all fish moving in the same direction (upstream) with large numbers.
+TEST(FishTest, LargeNumbersAllUpstream)
+{
+    std::vector<int> A = { 1000000000, 999999999, 500000000, 1, 1000000000 };
+    std::vector<int> B = { 0, 0, 0, 0, 0 };
+    EXPECT_EQ(fish(A, B), 5); // Expected result is 5 (all fish stay alive).
+}
+
+// Test case for all fish moving in the same direction (downstream) with large numbers.
+TEST(FishTest, LargeNumbersAllDownstream)
+{
+    std::vector<int> A = { 1000000000, 999999999, 500000000, 1, 1000000000 };
+    std::vector<int> B = { 1, 1, 1, 1, 1 };
+    EXPECT_EQ(fish(A, B), 5); // Expected result is 5 (all fish stay alive).
+}
+
+// Test case for a large number of elements with fish moving in the same direction (upstream).
+TEST(FishTest, LargeCountAllUpstream)
+{
+    const int N = 100000;
+    std::vector<int> A(N, 1000);
+    std::vector<int> B(N, 0);
+    EXPECT_EQ(fish(A, B), N); // Expected result is N (all fish stay alive).
+}
+
+// Test case for a large number of elements with fish moving in the same direction (downstream).
+TEST(FishTest, LargeCountAllDownstream)
+{
+    const int N = 100000;
+    std::vector<int> A(N, 1000);
+    std::vector<int> B(N, 1);
+    EXPECT_EQ(fish(A, B), N); // Expected result is N (all fish stay alive).
+}
+
 // Lesson 7 (Stacks and queues) - Nesting
 // -------------------------------------------------
 

@@ -28,3 +28,4 @@ int minPerimeterRectangle(int N);
 int flags(std::vector<int>& A);
 int chocolatesByNumbers(int N, int M);
 int absDistinct(std::vector<int>& A);
+int fish(std::vector<int>& A, std::vector<int>& B);
