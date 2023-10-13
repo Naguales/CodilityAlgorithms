@@ -1067,6 +1067,70 @@ TEST(NestingTest, LargeUnbalancedBrackets)
     EXPECT_EQ(nesting(S), 0); // Not properly nested (unbalanced brackets).
 }
 
+// Lesson 7 (Stacks and queues) - StoneWall
+// -------------------------------------------------
+
+// Test case for the provided example.
+TEST(StoneWallTest, ProvidedExample)
+{
+    std::vector<int> H = { 8, 8, 5, 7, 9, 8, 7, 4, 8 };
+    EXPECT_EQ(stoneWall(H), 7); // Expected result is 7.
+}
+
+// Test case for a single block wall.
+TEST(StoneWallTest, SingleBlockWall)
+{
+    std::vector<int> H = { 5 };
+    EXPECT_EQ(stoneWall(H), 1); // Expected result is 1.
+}
+
+// Test case for a wall with mixed heights.
+TEST(StoneWallTest, MixedHeights)
+{
+    std::vector<int> H = { 1, 2, 3, 2, 1 };
+    EXPECT_EQ(stoneWall(H), 3); // Expected result is 3.
+}
+
+// Test case for a wall with mixed heights.
+TEST(StoneWallTest, MixedHeights2)
+{
+    std::vector<int> H = { 1, 2, 2, 1, 3, 4, 1 };
+    EXPECT_EQ(stoneWall(H), 4); // Expected result is 4.
+}
+
+// Test case for a wall with increasing heights.
+TEST(StoneWallTest, IncreasingHeights)
+{
+    std::vector<int> H = { 1, 2, 3, 4, 5 };
+    EXPECT_EQ(stoneWall(H), 5); // Expected result is 5.
+}
+
+// Test case for a wall with decreasing heights.
+TEST(StoneWallTest, DecreasingHeights)
+{
+    std::vector<int> H = { 5, 4, 3, 2, 1 };
+    EXPECT_EQ(stoneWall(H), 5); // Expected result is 5.
+}
+
+// Test case for a large number of elements with large heights.
+TEST(StoneWallTest, LargeHeightsAndCount)
+{
+    const int N = 100000;
+    std::vector<int> H(N, 1000000000);
+    EXPECT_EQ(stoneWall(H), 1); // Expected result is 1 (only one block needed).
+}
+
+// Test case for a wall with large heights and decreasing order.
+TEST(StoneWallTest, LargeHeightsDecreasing)
+{
+    const int N = 100000;
+    std::vector<int> H(N);
+    for (int i = 0; i < N; ++i) {
+        H[i] = N - i;
+    }
+    EXPECT_EQ(stoneWall(H), N); // Expected result is N.
+}
+
 // Lesson 8 (Leader) - Dominator
 // -------------------------------------------------
 

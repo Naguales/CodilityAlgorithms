@@ -108,6 +108,9 @@
     <ClCompile Include="Lesson07(StacksAndQueues)-Fish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson07(StacksAndQueues)-StoneWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CodilityAlgorithms.h">

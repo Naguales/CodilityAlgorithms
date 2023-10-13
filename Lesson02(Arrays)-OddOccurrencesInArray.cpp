@@ -29,7 +29,7 @@ int oddOccurrencesInArray(std::vector<int>& A)
     int unpairedElement = 0;
 
     for (int num : A) {
-        // Perform bitwise XOR operation with the current element
+        // Perform bitwise XOR operation with the current element.
         // XOR operation cancels out paired elements and keeps the unpaired element.
         unpairedElement ^= num;
     }
